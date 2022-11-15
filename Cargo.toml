@@ -1,0 +1,15 @@
+[package]
+name = "messageparse"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "1.0.0"
+actix-web = "2.0.0"
+nom = "7.0"
+nom_locate = "4.0"
+roxmltree = "0.14.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0"
